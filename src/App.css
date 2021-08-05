@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.logo img {
+  width: 50%;
+  padding: 5%;
+  margin-left: 35%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.others {
+  display: contents;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header {
+  background-color: black;
+  display: inline-block;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.logo {
+  display: inline-flex;
+}
+.navbar {
+  display: inline-flex;
+  list-style: none;
+  width: 75%;
+  margin-top: 2%;
+  position: absolute;
+}
+.navbar li {
+  width: 100%;
   color: white;
+  font-size: small;
+  font-weight: bolder;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar li:hover {
+  cursor: pointer;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search {
+  width: 10%;
+}
+.user {
+  width: 15%;
+}
+.cart {
+  width: 40%;
+}
+.desktop a {
+  margin-bottom: 18%;
+}
+.sub-desktop,
+.sub-laptops,
+.sub-reviews,
+.sub-more {
+  background-color: #353535;
+  list-style: none;
+  width: 17rem;
+  color: white;
+  font-size: small;
+  font-weight: bold;
+  margin: 0;
+  margin-left: 20%;
+  padding: 1%;
+  border: double;
+}
+.sub-desktop li,
+.sub-laptops li,
+.sub-gaming li,
+.sub-reviews li,
+.sub-company li,
+.sub-community li,
+.sub-more li,
+.sub-workstation li {
+  padding: 7%;
+}
+.others li:hover {
+  cursor: pointer;
+  background-color: #787878;
+}
+.sub-gaming,
+.sub-workstation,
+.sub-company,
+.sub-community,
+.sub-gov,
+.image {
+  background-color: #353535;
+  list-style: none;
+  width: 15rem;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 15%;
+  left: 38.69%;
+  border: double;
+}
+.sub-gov,
+.image {
+  width: 30rem;
+}
+.image {
+  left: 54%;
+}
+.sub-reviews {
+  margin-left: 55%;
+}
+.sub-more {
+  margin-left: 63%;
+}
+#same {
+  position: absolute;
+  left: 37%;
+}
+#more {
+  position: absolute;
+  left: 80%;
+}
+.sub-company,
+.sub-community {
+  top: 43%;
+  left: 81.69%;
+}
+.sub-community {
+  top: 51%;
+}
+#all {
+  position: absolute;
+  left: 90%;
 }
